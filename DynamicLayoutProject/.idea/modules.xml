@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DynamicLayout/DynamicLayout.iml" filepath="$PROJECT_DIR$/DynamicLayout/DynamicLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DynamicLayoutProject.iml" filepath="$PROJECT_DIR$/DynamicLayoutProject.iml" />
+    </modules>
+  </component>
+</project>
+
