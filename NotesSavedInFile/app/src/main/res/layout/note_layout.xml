@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ff0adfff"
+              android:clickable="true"
+        >
+
+    <View android:layout_width="1dip"
+          android:layout_height="match_parent"
+          android:id="@+id/myline"
+
+          android:background="#ffff0044"
+          >
+
+    </View>
+    <TextView  android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+              android:text="Test"
+
+               android:id="@+id/mynote"
+               android:layout_toRightOf="@id/myline"
+               android:layout_marginLeft="30dip"
+
+               android:background="#fff6ff15"
+             >
+
+    </TextView>
+    <TextView  android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/mytimestamp"
+               android:layout_alignParentRight="true"
+
+                android:gravity="right"
+               android:layout_toRightOf="@id/mynote"
+
+               android:text="01-01-2013 22:13:19"
+
+               android:background="#ff16ff68"
+               >
+
+    </TextView>
+
+</RelativeLayout>

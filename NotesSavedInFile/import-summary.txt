@@ -1,0 +1,90 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\libraries\
+* .idea\libraries\android_support_v4.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* NotesEvenMoreExtended.iml
+* ic_launcher-web.png
+* out\
+* out\production\
+* out\production\NotesEvenMoreExtended\
+* out\production\NotesEvenMoreExtended\NotesEvenMoreExtended.afp.apk
+* out\production\NotesEvenMoreExtended\NotesEvenMoreExtended.apk
+* out\production\NotesEvenMoreExtended\NotesEvenMoreExtended.apk.res
+* out\production\NotesEvenMoreExtended\NotesEvenMoreExtended.unaligned.apk
+* out\production\NotesEvenMoreExtended\classes.dex
+* out\production\NotesEvenMoreExtended\com\
+* out\production\NotesEvenMoreExtended\com\aryef\
+* out\production\NotesEvenMoreExtended\com\aryef\samples\
+* out\production\NotesEvenMoreExtended\com\aryef\samples\notesevenmoreextended\
+* out\production\NotesEvenMoreExtended\com\aryef\samples\notesevenmoreextended\BuildConfig.class
+* out\production\NotesEvenMoreExtended\com\aryef\samples\notesevenmoreextended\MainActivity$1.class
+* out\production\NotesEvenMoreExtended\com\aryef\samples\notesevenmoreextended\MainActivity$2.class
+* out\production\NotesEvenMoreExtended\com\aryef\samples\notesevenmoreextended\MainActivity$3.class
+* out\production\NotesEvenMoreExtended\com\aryef\samples\notesevenmoreextended\MainActivity$DataControllerAdapter.class
+* out\production\NotesEvenMoreExtended\com\aryef\samples\notesevenmoreextended\MainActivity.class
+* out\production\NotesEvenMoreExtended\com\aryef\samples\notesevenmoreextended\Notes.class
+* out\production\NotesEvenMoreExtended\com\aryef\samples\notesevenmoreextended\R$attr.class
+* out\production\NotesEvenMoreExtended\com\aryef\samples\notesevenmoreextended\R$dimen.class
+* out\production\NotesEvenMoreExtended\com\aryef\samples\notesevenmoreextended\R$drawable.class
+* out\production\NotesEvenMoreExtended\com\aryef\samples\notesevenmoreextended\R$id.class
+* out\production\NotesEvenMoreExtended\com\aryef\samples\notesevenmoreextended\R$layout.class
+* out\production\NotesEvenMoreExtended\com\aryef\samples\notesevenmoreextended\R$menu.class
+* out\production\NotesEvenMoreExtended\com\aryef\samples\notesevenmoreextended\R$string.class
+* out\production\NotesEvenMoreExtended\com\aryef\samples\notesevenmoreextended\R$style.class
+* out\production\NotesEvenMoreExtended\com\aryef\samples\notesevenmoreextended\R.class
+* out\res-cache\
+* out\res-cache\NotesEvenMoreExtended\
+* out\res-cache\NotesEvenMoreExtended\drawable-hdpi\
+* out\res-cache\NotesEvenMoreExtended\drawable-hdpi\ic_launcher.png
+* out\res-cache\NotesEvenMoreExtended\drawable-mdpi\
+* out\res-cache\NotesEvenMoreExtended\drawable-mdpi\ic_launcher.png
+* out\res-cache\NotesEvenMoreExtended\drawable-xhdpi\
+* out\res-cache\NotesEvenMoreExtended\drawable-xhdpi\ic_launcher.png
+* out\res-cache\NotesEvenMoreExtended\drawable-xxhdpi\
+* out\res-cache\NotesEvenMoreExtended\drawable-xxhdpi\ic_launcher.png
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\android-support-v4.jar => app\libs\android-support-v4.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
