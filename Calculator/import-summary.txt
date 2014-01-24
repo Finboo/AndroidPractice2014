@@ -1,0 +1,87 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\libraries\
+* .idea\libraries\android_support_v4.xml
+* .idea\libraries\android_support_v42.xml
+* .idea\libraries\dexedLibs.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* HelloWorld.iml
+* ic_launcher-web.png
+* out\
+* out\production\
+* out\production\HelloWorld\
+* out\production\HelloWorld\HelloWorld.afp.apk
+* out\production\HelloWorld\HelloWorld.apk
+* out\production\HelloWorld\HelloWorld.apk.res
+* out\production\HelloWorld\HelloWorld.unaligned.apk
+* out\production\HelloWorld\classes.dex
+* out\production\HelloWorld\com\
+* out\production\HelloWorld\com\example\
+* out\production\HelloWorld\com\example\helloworld\
+* out\production\HelloWorld\com\example\helloworld\BuildConfig.class
+* out\production\HelloWorld\com\example\helloworld\MainActivity$1.class
+* out\production\HelloWorld\com\example\helloworld\MainActivity.class
+* out\production\HelloWorld\com\example\helloworld\R$attr.class
+* out\production\HelloWorld\com\example\helloworld\R$dimen.class
+* out\production\HelloWorld\com\example\helloworld\R$drawable.class
+* out\production\HelloWorld\com\example\helloworld\R$id.class
+* out\production\HelloWorld\com\example\helloworld\R$layout.class
+* out\production\HelloWorld\com\example\helloworld\R$menu.class
+* out\production\HelloWorld\com\example\helloworld\R$string.class
+* out\production\HelloWorld\com\example\helloworld\R$style.class
+* out\production\HelloWorld\com\example\helloworld\R.class
+* out\res-cache\
+* out\res-cache\HelloWorld\
+* out\res-cache\HelloWorld\drawable-hdpi\
+* out\res-cache\HelloWorld\drawable-hdpi\ic_launcher.png
+* out\res-cache\HelloWorld\drawable-mdpi\
+* out\res-cache\HelloWorld\drawable-mdpi\ic_launcher.png
+* out\res-cache\HelloWorld\drawable-xhdpi\
+* out\res-cache\HelloWorld\drawable-xhdpi\ic_launcher.png
+* out\res-cache\HelloWorld\drawable-xxhdpi\
+* out\res-cache\HelloWorld\drawable-xxhdpi\ic_launcher.png
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\android-support-v4.jar => app\libs\android-support-v4.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
