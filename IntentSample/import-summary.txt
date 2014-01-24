@@ -1,0 +1,98 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\libraries\
+* .idea\libraries\android_support_v4.xml
+* .idea\libraries\android_support_v4_905f4e3e4495d33cbccc710acebf2233.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* IntentSample2.iml
+* ic_launcher-web.png
+* out\
+* out\production\
+* out\production\IntentSample2\
+* out\production\IntentSample2\IntentSample2.afp.apk
+* out\production\IntentSample2\IntentSample2.apk
+* out\production\IntentSample2\IntentSample2.apk.res
+* out\production\IntentSample2\IntentSample2.unaligned.apk
+* out\production\IntentSample2\classes.dex
+* out\production\IntentSample2\com\
+* out\production\IntentSample2\com\example\
+* out\production\IntentSample2\com\example\intentsample2\
+* out\production\IntentSample2\com\example\intentsample2\BActivity.class
+* out\production\IntentSample2\com\example\intentsample2\BuildConfig.class
+* out\production\IntentSample2\com\example\intentsample2\MainActivity$1.class
+* out\production\IntentSample2\com\example\intentsample2\MainActivity$2.class
+* out\production\IntentSample2\com\example\intentsample2\MainActivity.class
+* out\production\IntentSample2\com\example\intentsample2\R$attr.class
+* out\production\IntentSample2\com\example\intentsample2\R$dimen.class
+* out\production\IntentSample2\com\example\intentsample2\R$drawable.class
+* out\production\IntentSample2\com\example\intentsample2\R$id.class
+* out\production\IntentSample2\com\example\intentsample2\R$layout.class
+* out\production\IntentSample2\com\example\intentsample2\R$menu.class
+* out\production\IntentSample2\com\example\intentsample2\R$string.class
+* out\production\IntentSample2\com\example\intentsample2\R$style.class
+* out\production\IntentSample2\com\example\intentsample2\R.class
+* out\res-cache\
+* out\res-cache\IntentSample2\
+* out\res-cache\IntentSample2\drawable-hdpi\
+* out\res-cache\IntentSample2\drawable-hdpi\ic_launcher.png
+* out\res-cache\IntentSample2\drawable-mdpi\
+* out\res-cache\IntentSample2\drawable-mdpi\ic_launcher.png
+* out\res-cache\IntentSample2\drawable-xhdpi\
+* out\res-cache\IntentSample2\drawable-xhdpi\ic_launcher.png
+* out\res-cache\IntentSample2\drawable-xxhdpi\
+* out\res-cache\IntentSample2\drawable-xxhdpi\ic_launcher.png
+* proguard-project.txt
+* settings.gradle
+* utils\
+* utils\build.gradle
+* utils\src\
+* utils\src\main\
+* utils\src\main\java\
+* utils\src\main\java\com\
+* utils\src\main\java\com\example\
+* utils\src\main\java\com\example\utils\
+* utils\src\main\java\com\example\utils\Utils.java
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\android-support-v4.jar => app\libs\android-support-v4.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

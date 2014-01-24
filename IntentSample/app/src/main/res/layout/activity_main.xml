@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/btnStartExplicit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+
+                android:text="Explicit" />
+
+        <Button
+                android:id="@+id/startImplicit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:text="Implicit" />
+    </LinearLayout>
+
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+    <EditText
+            android:id="@+id/txtMessage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnStartExplicit"
+            android:layout_below="@+id/btnStartExplicit"
+            android:layout_marginTop="23dp"
+            android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>
+
+
+</LinearLayout>
