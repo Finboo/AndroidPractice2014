@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#ffffdd">
+    
+<View
+    android:id="@+id/marginLine"
+    android:layout_width="1dip"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="25dip"
+    android:background="#ff2200" />
+<TextView 
+    android:id="@+id/notedate"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_alignParentRight="true"
+     android:layout_centerVertical="true"
+    android:text="2013-12-12"
+    
+    android:textSize="25sp"
+    android:textColor="#ff2200"
+    android:layout_marginRight="5dip"
+    />
+<TextView 
+    android:id="@+id/note_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="my note"
+    android:layout_toRightOf="@id/marginLine"
+    android:textColor="#ff2200"
+    android:textSize="25sp"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="18dip"
+    android:layout_toLeftOf="@id/notedate"
+    android:maxLines="2"
+    />
+
+</RelativeLayout>
