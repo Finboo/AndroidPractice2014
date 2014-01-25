@@ -1,0 +1,87 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\libraries\
+* .idea\libraries\android_support_v4.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* NotesProject.iml
+* ic_launcher-web.png
+* out\
+* out\production\
+* out\production\NotesProject\
+* out\production\NotesProject\NotesProject.afp.apk
+* out\production\NotesProject\NotesProject.apk
+* out\production\NotesProject\NotesProject.apk.res
+* out\production\NotesProject\NotesProject.unaligned.apk
+* out\production\NotesProject\classes.dex
+* out\production\NotesProject\com\
+* out\production\NotesProject\com\aryef\
+* out\production\NotesProject\com\aryef\samples\
+* out\production\NotesProject\com\aryef\samples\mynotes\
+* out\production\NotesProject\com\aryef\samples\mynotes\BuildConfig.class
+* out\production\NotesProject\com\aryef\samples\mynotes\MainActivity$1.class
+* out\production\NotesProject\com\aryef\samples\mynotes\MainActivity.class
+* out\production\NotesProject\com\aryef\samples\mynotes\Note.class
+* out\production\NotesProject\com\aryef\samples\mynotes\R$attr.class
+* out\production\NotesProject\com\aryef\samples\mynotes\R$dimen.class
+* out\production\NotesProject\com\aryef\samples\mynotes\R$drawable.class
+* out\production\NotesProject\com\aryef\samples\mynotes\R$id.class
+* out\production\NotesProject\com\aryef\samples\mynotes\R$layout.class
+* out\production\NotesProject\com\aryef\samples\mynotes\R$menu.class
+* out\production\NotesProject\com\aryef\samples\mynotes\R$string.class
+* out\production\NotesProject\com\aryef\samples\mynotes\R$style.class
+* out\production\NotesProject\com\aryef\samples\mynotes\R.class
+* out\res-cache\
+* out\res-cache\NotesProject\
+* out\res-cache\NotesProject\drawable-hdpi\
+* out\res-cache\NotesProject\drawable-hdpi\ic_launcher.png
+* out\res-cache\NotesProject\drawable-mdpi\
+* out\res-cache\NotesProject\drawable-mdpi\ic_launcher.png
+* out\res-cache\NotesProject\drawable-xhdpi\
+* out\res-cache\NotesProject\drawable-xhdpi\ic_launcher.png
+* out\res-cache\NotesProject\drawable-xxhdpi\
+* out\res-cache\NotesProject\drawable-xxhdpi\ic_launcher.png
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\android-support-v4.jar => app\libs\android-support-v4.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
