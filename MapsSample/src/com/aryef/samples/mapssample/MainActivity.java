@@ -2,7 +2,7 @@ package com.aryef.samples.mapssample;
 
 import android.app.Dialog;
 import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.GooglePlayServicesUtil;
+
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
 
@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        int i = isGooglePlayServicesAvailable(getApplicationContext());
+       /* int i = isGooglePlayServicesAvailable(getApplicationContext());
 
         if( i != ConnectionResult.SUCCESS)
         {
@@ -32,17 +32,17 @@ public class MainActivity extends Activity {
                     d = getErrorDialog(i, this, PLAY_SERVICES_RESOLUTION_REQUEST);
             d.show();
 
-        }
+        }*/
 
         setContentView(R.layout.activity_main);
  
-        try {
+        /*try {
             // Loading map
             initilizeMap();
  
         } catch (Exception e) {
             e.printStackTrace();
-        }
+        }*/
  
     }
  
