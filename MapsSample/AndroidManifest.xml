@@ -9,17 +9,21 @@
         android:targetSdkVersion="15" />
     
     <permission
-        android:name="info.androidhive.googlemapsv2.permission.MAPS_RECEIVE"
-        android:protectionLevel="signature" /> 
-    <uses-permission android:name="info.androidhive.googlemapsv2.permission.MAPS_RECEIVE" /> 
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        android:name="com.aryef.samples.mapssample.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
- 
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+
+    <uses-permission android:name="com.aryef.samples.mapssample.permission.MAPS_RECEIVE" />
+
     <!-- Required to show current location -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
  
     <!-- Required OpenGL ES 2.0. for Maps V2 -->
     <uses-feature
@@ -50,8 +54,9 @@
 
         <meta-data
         android:name="com.google.android.maps.v2.API_KEY"
-        android:value="AIzaSyAeC0A85fG9m2X64m2TcVpxMF_EvYgUi-U">
+        android:value="AIzaSyBTZUW_B028zEIIZSLcFBCRWLc7Ep3wyg8">
                 </meta-data>
+        <!--AIzaSyDW64cnTBQtAH3ZjgJtryRwQEzNBH3OCv4-->
 
         
             
