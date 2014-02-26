@@ -33,8 +33,11 @@ public class CustomMap extends SupportMapFragment {
     public void onResume() {
         super.onResume();
         GoogleMap googleMap = getMap();
-        if (googleMap == null) {
-        } else {
+        if (googleMap == null)
+        {
+        }
+        else
+        {
             LatLng mLatLng = new LatLng(70.00,
                     33.00);
 
