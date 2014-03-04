@@ -15,6 +15,7 @@ public class CustomMap extends SupportMapFragment {
 
     private static final int ZOOMIN_ANIMATION_DURATION = 300;
 
+
     public static CustomMap newInstance() {
         Bundle bundle = new Bundle();
         CustomMap customMap = new CustomMap();
