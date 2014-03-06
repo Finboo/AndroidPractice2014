@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gcm">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Android_Infra/gcm-client/dist/gcm.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
