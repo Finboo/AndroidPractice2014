@@ -6,14 +6,12 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
-import android.widget.Toast;
+
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
-import com.google.android.gms.maps.CameraUpdateFactory;
+
 import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.CameraPosition;
-import com.google.android.gms.maps.model.LatLng;
+
 import android.support.v4.app.FragmentActivity;
 
 import java.io.IOException;
@@ -52,47 +50,15 @@ public class MainActivity extends FragmentActivity {
 
 		setContentView(R.layout.activity_main);
 
-        try {
-            // Loading map
-            //   initilizeMap();
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
 
     }
 
-    /**
-     * function to load map. If map is not created it will create it for you
-     */
-    private void initilizeMap() {
-        if (googleMap == null) {
-            googleMap = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(
-                    R.id.map)).getMap();
 
-            // check if map is created successfully or not
-            if (googleMap == null) {
-                Toast.makeText(getApplicationContext(),
-                        "Sorry! unable to create maps", Toast.LENGTH_SHORT)
-                        .show();
-            }
-            googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
-            CameraPosition cameraPosition = new CameraPosition.Builder().target(
-                    new LatLng(31.4388, 35.02816)).zoom(12).build();
-
-            googleMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
-
-            googleMap.setMyLocationEnabled(true);
-            googleMap.getUiSettings().setZoomControlsEnabled(true);
-            googleMap.getUiSettings().setCompassEnabled(true);
-            googleMap.getUiSettings().setMyLocationButtonEnabled(true);
-        }
-    }
 
     @Override
     protected void onResume() {
         super.onResume();
-        //  initilizeMap();
+
     }
 
 	class RegisterBackground extends AsyncTask<String,String,String> {
